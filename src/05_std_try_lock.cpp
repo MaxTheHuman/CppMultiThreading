@@ -33,5 +33,5 @@ int main() {
 
     cout << my_amount << "\n";
     
-	return 0;
+    return 0;
 }
