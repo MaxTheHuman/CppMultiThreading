@@ -30,7 +30,7 @@ void find_sum_of_odd(ull start, ull end) {
 
 int main() {
 
-	ull start = 0, end = 1900000000;
+    ull start = 0, end = 1900000000;
 
     auto start_time = high_resolution_clock::now();
     
@@ -49,5 +49,5 @@ int main() {
     cout << "Odd sum = " << odd_sum << "\n";
     cout << "Even sum = " << even_sum << "\n";
     cout << "Time spent: " << duration.count() << " microseconds\n";
-	return 0;
+    return 0;
 }
